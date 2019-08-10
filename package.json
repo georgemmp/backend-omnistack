@@ -1,0 +1,18 @@
+{
+  "name": "backend-omnistack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/georgemmp/backend-omnistack.git",
+  "author": "georgemmp <machadogeorge.p@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
