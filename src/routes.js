@@ -5,6 +5,7 @@ const DislikeController = require('./controller/dislike.controller');
 
 const routes = express.Router();
 
+routes.get('/dev', DevController.index);
 routes.post('/dev', DevController.store);
 routes.post('/dev/:devId/like', LikeController.store);
 routes.post('/dev/:devId/dislike', DislikeController.store);
